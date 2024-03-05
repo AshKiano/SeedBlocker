@@ -1,0 +1,7 @@
+name: SeedBlocker
+version: '${project.version}'
+main: com.ashkiano.seedblocker.SeedBlocker
+api-version: '1.16'
+commands:
+  seed:
+    description: Blocks the seed command and displays a custom message.
