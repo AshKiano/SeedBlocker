@@ -12,7 +12,7 @@ public class SeedBlocker extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents(this, this);
-        getLogger().info("SeedBlocker has been enabled!");
+        this.getLogger().info("Thank you for using the SeedBlocker plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
         Metrics metrics = new Metrics(this, 21269);
     }
 
